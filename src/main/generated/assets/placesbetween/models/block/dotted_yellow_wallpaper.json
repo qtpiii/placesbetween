@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "placesbetween:block/dotted_yellow_wallpaper_top",
+    "side": "placesbetween:block/dotted_yellow_wallpaper"
+  }
+}

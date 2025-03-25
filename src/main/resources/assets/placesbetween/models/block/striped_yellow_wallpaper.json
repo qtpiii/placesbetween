@@ -1,0 +1,18 @@
+{
+  "loader": "fusion:model",
+  "type": "connecting",
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "placesbetween:block/striped_yellow_wallpaper_top",
+    "side": "placesbetween:block/striped_yellow_wallpaper"
+  },
+  "connections": [
+    {
+      "type": "is_same_block"
+    },
+    {
+      "type": "match_block",
+      "block": "placesbetween:generic_yellow_wallpaper"
+    }
+  ]
+}
